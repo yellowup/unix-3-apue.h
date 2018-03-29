@@ -6,6 +6,8 @@ On other platforms, type "make" (as long as this is gnu make).
 For FAQs, updated source code, and the lost chapter, see http://www.apuebook.com.
 Please direct questions, suggestions, and bug reports to sar@apuebook.com.
 
+sudo pacman -S libbsd
+sudo apt install libbsd-dev
 after make
 cp ./include/apue.h /usr/include
 cp ./lib/libapue.a /usr/local/lib/
